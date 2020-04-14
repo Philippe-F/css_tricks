@@ -10,3 +10,14 @@ Functionality & MVP List
 3. Page Counter to keep track of the completed levels
 4. Production README.md
 
+Wireframe
+CSS Tricks will consist of a single page with a text editor, css render box, 
+instructions, and a counter to display how many objectives the user has 
+completed. The user will type code into the text editor to manipulate the 
+objects in the css render. 
+![](assets/wireframe.png)
+
+Technologies
+`HTML`
+`CSS`
+`Javascript`
