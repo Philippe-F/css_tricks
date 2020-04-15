@@ -2,9 +2,10 @@
   "name": "css_tricks",
   "version": "1.0.0",
   "description": "CSS Tricks is a game inspired by Flexbox Froggy where players will interact  with a text editor to complete a CSS trick. As they progress through the game  the tricks become harder and more involved. The player wins when all of the  objectives have been completed.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "devDependencies": {
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
   }
 }
